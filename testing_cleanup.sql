@@ -1,7 +1,8 @@
+drop table radiobands;
 drop table radios;
 drop table bands;
-drop table radiobands;
 
+drop table flyway_schema_history;
 
 
 select * from radios;
@@ -18,4 +19,7 @@ insert into radios
 (radioname)
 values
 ('Yeasu FT-3');
+
+
+
 
